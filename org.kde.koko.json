@@ -67,8 +67,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/21.05/koko-21.05.tar.xz",
-                    "sha256": "65005ad5d2072df69bb2fd38d1de5b772cc7d132093a96f52dc1ed86e8fc1602"
+                    "url": "https://download.kde.org/stable/plasma-mobile/21.06/koko-21.06.tar.xz",
+                    "sha256": "020b40387ce033f9d249bbdbd699a69d1c82000bb58b4c8304d893884c45fb84"
                 },
                 {
                     "type": "file",
@@ -87,10 +87,6 @@
                     "path": "koko/admin1CodesASCII.txt",
                     "dest-filename": "src/admin1CodesASCII.txt",
                     "sha256": "e6b32ae1754817f5af17713bb3c173e227b2d6f6ffd4d66bae27bbe42376cde7"
-                },
-                {
-                    "type": "patch",
-                    "path": "koko/0001-Update-Appstream-data.patch"
                 }
             ]
         }
