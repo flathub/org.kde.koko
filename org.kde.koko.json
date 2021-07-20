@@ -67,8 +67,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/21.06/koko-21.06.tar.xz",
-                    "sha256": "020b40387ce033f9d249bbdbd699a69d1c82000bb58b4c8304d893884c45fb84"
+                    "url": "https://download.kde.org/stable/plasma-mobile/21.07/koko-21.07.tar.xz",
+                    "sha256": "169a137af38764fbb85c59ab549980aa46dc7c5c7a7913ec9afd97556380e469"
                 },
                 {
                     "type": "file",
