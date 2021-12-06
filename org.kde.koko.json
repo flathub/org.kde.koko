@@ -1,6 +1,6 @@
 {
     "id": "org.kde.koko",
-    "rename-icon": "128-apps-koko",
+    "rename-icon": "koko",
     "runtime": "org.kde.Platform",
     "runtime-version": "5.15-21.08",
     "sdk": "org.kde.Sdk",
