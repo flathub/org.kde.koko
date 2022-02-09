@@ -36,8 +36,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.08.3/src/kio-extras-21.08.3.tar.xz",
-                    "sha256": "42020c10ea1ff595f929d3626cab3dc4f2d41957c069eea449cb5564705aa053"
+                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kio-extras-21.12.2.tar.xz",
+                    "sha256": "44e2d6f5ad926b77e74be5bf235a02ef83cd396bcb01bed9b15b8b4938676304"
                 }
             ]
         },
@@ -58,8 +58,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/21.12/koko-21.12.tar.xz",
-                    "sha256": "b4c261d8ef5263d7978f210ca7763f9a0a326702832a96efb3e6e52f9f85fda1"
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.02/koko-22.02.tar.xz",
+                    "sha256": "95ca1df114ae7b3faf7896c170ef592a4c86eb1dcf0b3df5a06d21330665dc59"
                 },
                 {
                     "type": "file",
