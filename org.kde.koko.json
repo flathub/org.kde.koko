@@ -26,7 +26,13 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.5/exiv2-0.27.5-Source.tar.gz",
-                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2"
+                    "sha256": "35a58618ab236a901ca4928b0ad8b31007ebdc0386d904409d825024e45ea6e2",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/libkexiv2-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -37,7 +43,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kio-extras-21.12.3.tar.xz",
-                    "sha256": "b1400209157f5ff21e0981a54c8bdb442a51764ccd88fecdd7e49f989bb4f787"
+                    "sha256": "b1400209157f5ff21e0981a54c8bdb442a51764ccd88fecdd7e49f989bb4f787",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kio-extras-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -48,7 +60,13 @@
                 {
                     "type": "archive",
                     "sha256": "3cfba775498e031f6963669ee0e4426d4fddd48a244b9583620de4d312ba92ca",
-                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.2.0.tar.xz"
+                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.2.0.tar.xz",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 229033,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-$version.tar.xz"
+                    }
                 }
             ]
         },
@@ -59,7 +77,13 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/plasma-mobile/22.02/koko-22.02.tar.xz",
-                    "sha256": "95ca1df114ae7b3faf7896c170ef592a4c86eb1dcf0b3df5a06d21330665dc59"
+                    "sha256": "95ca1df114ae7b3faf7896c170ef592a4c86eb1dcf0b3df5a06d21330665dc59",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242935,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/koko-$version.tar.xz"
+                    }
                 },
                 {
                     "type": "file",
