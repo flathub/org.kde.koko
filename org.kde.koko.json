@@ -76,8 +76,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.02/koko-22.02.tar.xz",
-                    "sha256": "95ca1df114ae7b3faf7896c170ef592a4c86eb1dcf0b3df5a06d21330665dc59",
+                    "url": "https://download.kde.org/stable/plasma-mobile/21.05/koko-21.05.tar.xz",
+                    "sha256": "65005ad5d2072df69bb2fd38d1de5b772cc7d132093a96f52dc1ed86e8fc1602",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242935,
