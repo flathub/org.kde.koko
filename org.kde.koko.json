@@ -42,8 +42,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kio-extras-22.08.0.tar.xz",
-                    "sha256": "d65b5e7ef956b0f7941323114d2cfaff40b5d895f324868496a261a1af50f63f",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/kio-extras-22.08.1.tar.xz",
+                    "sha256": "89e140e1e6668754b8cb688b5375108d1dfafe0fad65600dd13694fe6ca53038",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -76,8 +76,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.06/koko-22.06.tar.xz",
-                    "sha256": "b452def725d955e7d9f5a8520bb54a0a136504eea6230b9f58b501dc8fa69c39",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.09/koko-22.09.tar.xz",
+                    "sha256": "f40dcd9bd3ba686435dbf4b3b1a54bdd8a994b3f4875266a9deba9e004d37efc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242935,
