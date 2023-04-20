@@ -98,13 +98,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/23.01.0/koko-23.01.0.tar.xz",
-                    "sha256": "d792e948799153368eea4843ff1c884719a5da9acab2889c5d43c2bb1577cbad",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/koko-23.04.0.tar.xz",
+                    "sha256": "939a6d71bf0a9cfb1e897b8b314b58b352ba4322ca5a57952f16b3886caa67e6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242935,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/koko-$version.tar.xz"
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/koko-$version.tar.xz"
                     }
                 },
                 {
