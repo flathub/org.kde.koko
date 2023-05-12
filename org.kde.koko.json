@@ -27,13 +27,7 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/Exiv2/exiv2/releases/download/v0.27.6/exiv2-0.27.6-Source.tar.gz",
-                    "sha256": "4c192483a1125dc59a3d70b30d30d32edace9e14adf52802d2f853abf72db8a6",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 769,
-                        "stable-only": true,
-                        "url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
-                    }
+                    "sha256": "4c192483a1125dc59a3d70b30d30d32edace9e14adf52802d2f853abf72db8a6"
                 }
             ]
         },
@@ -43,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/kio-extras-23.04.0.tar.xz",
-                    "sha256": "0db97164276d609c2c03acbe3f9c24000f0330e8e4f5bf7b3fad68ecbd7b60d1",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/kio-extras-23.04.1.tar.xz",
+                    "sha256": "d8706b84f9a95767b85c27f4718e9905f35ee873f2acca25d5c51e55ff182ad9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -98,8 +92,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/koko-23.04.0.tar.xz",
-                    "sha256": "939a6d71bf0a9cfb1e897b8b314b58b352ba4322ca5a57952f16b3886caa67e6",
+                    "url": "https://download.kde.org/stable/release-service/23.04.1/src/koko-23.04.1.tar.xz",
+                    "sha256": "f7a5a9504add173e03a8395e4876218c00bb594d73f381dab8ec03b10acfb06d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242935,
