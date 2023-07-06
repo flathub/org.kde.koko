@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/kio-extras-23.04.2.tar.xz",
-                    "sha256": "88ed0887d4376dec4ecf8aa16739e672bf6b6a0525f8e89e194a2dd0487a18c1",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kio-extras-23.04.3.tar.xz",
+                    "sha256": "0d23f5cb5027f6dac110ade375f3b40eb8577c2122b0485b70efb6280c76fdf9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -103,8 +103,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.8.0.tar.xz",
-                    "sha256": "3741a940fa688f53c7d9bdf607b1c6991f6d690e9ce826e8c76794336c594bcf",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.9.0.tar.xz",
+                    "sha256": "56d8073cd9797d4adf5a75f5dc0d2385fc2e896ab6e6106131a6f0d6a976d8a2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -120,8 +120,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/koko-23.04.2.tar.xz",
-                    "sha256": "420b1f091edd13b9494b2ab0488a530fbb652a78e627dc4419c6041de985cf6e",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/koko-23.04.3.tar.xz",
+                    "sha256": "09a5fdadeb3bd94ab5039a63fef6d47c534ec586f41af2517a389792e475e6d8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242935,
