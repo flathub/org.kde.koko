@@ -120,8 +120,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/koko-23.04.3.tar.xz",
-                    "sha256": "09a5fdadeb3bd94ab5039a63fef6d47c534ec586f41af2517a389792e475e6d8",
+                    "url": "https://download.kde.org/unstable/release-service/23.07.90/src/koko-23.07.90.tar.xz",
+                    "sha256": "dc41a97568715f3cef50b4fd3c737c29325e2ebdfa216b81f0590923f856fcae",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 368663,
