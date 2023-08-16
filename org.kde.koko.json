@@ -124,9 +124,9 @@
                     "sha256": "09a5fdadeb3bd94ab5039a63fef6d47c534ec586f41af2517a389792e475e6d8",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 242935,
+                        "project-id": 368663,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/koko-$version.tar.xz"
+                        "url-template": "https://download.kde.org/unstable/release-service/$version/src/koko-$version.tar.xz"
                     }
                 },
                 {
