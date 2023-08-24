@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kio-extras-23.04.3.tar.xz",
-                    "sha256": "0d23f5cb5027f6dac110ade375f3b40eb8577c2122b0485b70efb6280c76fdf9",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/kio-extras-23.08.0.tar.xz",
+                    "sha256": "5a1cebeef8ced99f22093be40a6081cbc57a750bd813598cb659b4d4c8264809",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -120,8 +120,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/koko-23.04.3.tar.xz",
-                    "sha256": "09a5fdadeb3bd94ab5039a63fef6d47c534ec586f41af2517a389792e475e6d8",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/koko-23.08.0.tar.xz",
+                    "sha256": "2d473afa9360e8f5bd0cc7cd0f983bb7e0e9da1cc86240c354e171d3119f27a2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242935,
