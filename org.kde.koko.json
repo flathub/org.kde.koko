@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/kio-extras-23.08.0.tar.xz",
-                    "sha256": "5a1cebeef8ced99f22093be40a6081cbc57a750bd813598cb659b4d4c8264809",
+                    "url": "https://download.kde.org/stable/release-service/23.08.1/src/kio-extras-23.08.1.tar.xz",
+                    "sha256": "1c5b559f54ca3736988ba0fae2dcfc4227a195aa442da254dd6cc2e738cd61d9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
