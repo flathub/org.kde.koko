@@ -48,13 +48,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/releases/download/v0.28.0/exiv2-0.28.0-Source.tar.gz",
-                    "sha256": "89af3b5ef7277753ef7a7b5374ae017c6b9e304db3b688f1948e73e103491f3d",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.1.tar.gz",
+                    "sha256": "3078651f995cb6313b1041f07f4dd1bf0e9e4d394d6e2adc6e92ad0b621291fa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
                         "stable-only": true,
-                        "url-template": "https://github.com/Exiv2/exiv2/releases/download/v$version/exiv2-$version-Source.tar.gz"
+                        "url-template": "https://github.com/Exiv2/exiv2/archive/refs/tags/v$version.tar.gz"
                     }
                 }
             ]
@@ -65,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/kio-extras-23.08.2.tar.xz",
-                    "sha256": "2b98c6432587286dbf98eeacf03af3cadea267e60f21f7cf445a0c27e94fcc43",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/kio-extras-23.08.3.tar.xz",
+                    "sha256": "06464d0e3868c961dcc2b2ccbb0e66c743a7ac250b3555147e3b171048d8d6da",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -120,8 +120,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.2/src/koko-23.08.2.tar.xz",
-                    "sha256": "378d344d0bb78c87aae9244bb397fd5fc702d5b8117f038c7568874837832282",
+                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/koko-23.08.3.tar.xz",
+                    "sha256": "de6ddacf3b319a2a1949f61b517a0eec113299a9c68f47643bb0ad3ccc8c6152",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242935,
