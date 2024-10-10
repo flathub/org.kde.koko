@@ -64,8 +64,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kio-extras-24.08.1.tar.xz",
-                    "sha256": "64051dda2f17a3901426c0a9b5ca65b64429f00b6820e7796e605084b0cfceda",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/kio-extras-24.08.2.tar.xz",
+                    "sha256": "99a6f548c7aac18017ebe2b73ac99327f2585b418257bc1c7e065ced82bd2cc7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -106,8 +106,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.4.0.tar.xz",
-                    "sha256": "56e3ceb52055b5603320ea08b27d3673d32a391a8d58646d998227d8b51f0a93",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.5.0.tar.xz",
+                    "sha256": "f9dfd191022b633ea3348f84730d7158a159dfe49668dba0a9e9bd678ac44e54",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
