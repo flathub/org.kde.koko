@@ -74,8 +74,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/kio-extras-26.04.0.tar.xz",
-                    "sha256": "0abc1d61d03d3ebb04c05840d5910475f46abf97efef65e354c13c12a1c31fd2",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/kio-extras-26.04.1.tar.xz",
+                    "sha256": "f53a64fbe5f0bbcadde55f347fef41d2f39c0b5cdcb7c74df8dee7439ee1194c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -112,8 +112,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/koko-26.04.0.tar.xz",
-                    "sha256": "762d546f7b09d4ccc013fbb3665f657e03a2f6e250271dd4e625358f9e33edfb",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/koko-26.04.1.tar.xz",
+                    "sha256": "70810148e2f86325017ea6c6446d17dfb960fd8ce66b5d9f9ec0e7b8d142d954",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
