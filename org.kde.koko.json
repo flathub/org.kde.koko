@@ -74,8 +74,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/kio-extras-26.04.2.tar.xz",
-                    "sha256": "af4941af624f883891d33701aa0ce4216d6de114db3e4a250099c52d3d42acaa",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kio-extras-26.04.3.tar.xz",
+                    "sha256": "8448075fdedd1e5ae43b865337f5ac3ca39037726dd0deaa061797fa84d31d63",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -95,8 +95,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "sha256": "b868800bb9bb814ee36c9d696be9ccec9a22ab6f975d789e248b75fbd1ba99fa",
-                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.6.1.tar.xz",
+                    "sha256": "6d37a479463dcd16e4746d8b43d4adb05640e8b49056baabc82c865e2e1a4c85",
+                    "url": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.6.2.1.tar.xz",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 229033,
@@ -112,8 +112,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/koko-26.04.2.tar.xz",
-                    "sha256": "20c97f8115548455ae8f215570b445279fa42071756a509b4c6dc27e41d4823a",
+                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/koko-26.04.3.tar.xz",
+                    "sha256": "fd910b82d0f08e3c39ac8a3588b5a78516d0731c6a36a7d9302644e3bdf55ac4",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
