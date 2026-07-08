@@ -5,12 +5,13 @@
     "sdk": "org.kde.Sdk",
     "command": "koko",
     "finish-args": [
+        "--device=dri",
+        "--filesystem=home",
+        "--socket=fallback-x11",
         "--share=ipc",
         "--share=network",
-        "--socket=fallback-x11",
         "--socket=wayland",
-        "--device=dri",
-        "--filesystem=home"
+        "--talk-name=org.freedesktop.FileManager1"
     ],
     "cleanup": [
         "/include",
@@ -18,33 +19,10 @@
         "/mkspecs",
         "/share/doc",
         "/share/man",
-        "/share/qlogging-categories6",
         "*.la",
         "*.a"
     ],
     "modules": [
-        {
-            "name": "inih",
-            "buildsystem": "meson",
-            "config-opts": [
-                "-Ddefault_library=shared",
-                "-Ddistro_install=true",
-                "-Dwith_INIReader=true"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://github.com/benhoyt/inih/archive/refs/tags/r62.tar.gz",
-                    "sha256": "9c15fa751bb8093d042dae1b9f125eb45198c32c6704cd5481ccde460d4f8151",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 11600,
-                        "stable-only": true,
-                        "url-template": "https://github.com/benhoyt/inih/archive/refs/tags/r$version.tar.gz"
-                    }
-                }
-            ]
-        },
         {
             "name": "exiv2",
             "buildsystem": "cmake-ninja",
@@ -52,7 +30,8 @@
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
                 "-DEXIV2_BUILD_DOC:BOOL=OFF",
                 "-DEXIV2_BUILD_EXIV2_COMMAND=OFF",
-                "-DEXIV2_BUILD_SAMPLES=OFF"
+                "-DEXIV2_BUILD_SAMPLES=OFF",
+                "-DEXIV2_ENABLE_INIH:BOOL=OFF"
             ],
             "sources": [
                 {
@@ -64,23 +43,6 @@
                         "project-id": 769,
                         "stable-only": true,
                         "url-template": "https://github.com/Exiv2/exiv2/archive/refs/tags/v$version.tar.gz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "kio-extras",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.3/src/kio-extras-26.04.3.tar.xz",
-                    "sha256": "8448075fdedd1e5ae43b865337f5ac3ca39037726dd0deaa061797fa84d31d63",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kio-extras-$version.tar.xz"
                     }
                 }
             ]
@@ -126,6 +88,7 @@
             "name": "kquickimageeditor",
             "buildsystem": "cmake-ninja",
             "config-opts": [
+                "-DBUILD_TESTING=OFF",
                 "-DBUILD_WITH_QT6=ON",
                 "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
             ],
