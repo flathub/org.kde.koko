@@ -1,6 +1,17 @@
---- 6b6525_stackblur.cpp	2026-09-01 01:04:41.872743245 -0400
-+++ src/annotations/stackblur.cpp	2026-09-01 00:59:16.945650489 -0400
-@@ -350,7 +350,7 @@
+From ce268789fe2ebed3088098fc1e6afa72dc5d279f Mon Sep 17 00:00:00 2001
+From: Justin Zobel <justin.zobel@gmail.com>
+Date: Tue, 1 Sep 2026 15:58:58 +0930
+Subject: [PATCH] Test Patch
+
+---
+ src/annotations/stackblur.cpp | 27 ++++++++++++++-------------
+ 1 file changed, 14 insertions(+), 13 deletions(-)
+
+diff --git a/src/annotations/stackblur.cpp b/src/annotations/stackblur.cpp
+index ae4d750..3656876 100644
+--- a/src/annotations/stackblur.cpp
++++ b/src/annotations/stackblur.cpp
+@@ -350,7 +350,7 @@ HWY_ATTR HWY_FLATTEN void blurRowWorker(const BlurTask &task)
      // Vectors are what actually hold data, but they don't have any members.
      // They don't even have a size until you zero them or assign something.
      // You have to use Highway's APIs to do anything with them.
@@ -9,7 +20,7 @@
  
      // Tags don't have data, Highway just uses them to pass type info.
      MTag mtag;
-@@ -375,18 +375,18 @@
+@@ -375,18 +375,18 @@ HWY_ATTR HWY_FLATTEN void blurRowWorker(const BlurTask &task)
      const auto vMultiplier = hn::Set(mtag, radiusMultiplier<M_t>(radius));
  
      // Weights should be set like {1, 2, 3, …, radius+1, …, 3, 2, 1}
@@ -33,7 +44,7 @@
  
      for (Px y = task.startRow; y < task.endRow; ++y) {
          // Inform the compiler if the pointer is aligned and restricted
-@@ -408,18 +408,18 @@
+@@ -408,18 +408,18 @@ HWY_ATTR HWY_FLATTEN void blurRowWorker(const BlurTask &task)
  
          // fill up left side of kernel
          for (Px i = 0; i < leftEndMidStart; ++i) {
@@ -56,7 +67,7 @@
              sumIn = hn::Add(sumIn, vNext);
          }
  
-@@ -441,7 +441,7 @@
+@@ -441,7 +441,7 @@ HWY_ATTR HWY_FLATTEN void blurRowWorker(const BlurTask &task)
                  // Outgoing data kernel index.
                  // The modulo lets us loop through the kernel.
                  const Px outKI = (kernelMidX - radius + kernelSize) % kernelSize;
@@ -65,7 +76,7 @@
                  // Next middle of kernel
                  if constexpr (Section == LeftEdge) {
                      kernelMidX = std::min(kernelMidX + 1, lastX);
-@@ -449,10 +449,11 @@
+@@ -449,10 +449,11 @@ HWY_ATTR HWY_FLATTEN void blurRowWorker(const BlurTask &task)
                      ++kernelMidX;
                  }
                  const auto vNextKMid = loadPtrToVec<alignment>(ctag, itag, mtag, &row[kernelMidX * channels]);
@@ -79,3 +90,6 @@
                  sumOut = hn::Add(sumOut, vCurrentKMid);
                  sumIn = hn::Sub(sumIn, vCurrentKMid);
              }
+-- 
+2.55.0
+
