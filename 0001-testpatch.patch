@@ -1,0 +1,43 @@
+From 8c5a838a16e2f791a3f69f1bc36a10f88ac61937 Mon Sep 17 00:00:00 2001
+From: Justin Zobel <justin.zobel@gmail.com>
+Date: Tue, 1 Sep 2026 09:45:58 +0930
+Subject: [PATCH] testpatch
+
+---
+ src/annotations/stackblur.cpp | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/src/annotations/stackblur.cpp b/src/annotations/stackblur.cpp
+index ae4d750..7bb9eb9 100644
+--- a/src/annotations/stackblur.cpp
++++ b/src/annotations/stackblur.cpp
+@@ -265,7 +265,7 @@ static_assert(
+         using C_t = uint16_t; // channel type
+         constexpr size_t channels = 4;
+         constexpr size_t RGBA64_alignment = alignof(C_t) * channels;
+-        using Tag = hn::FixedTag<C_t, channels>;
++        using Tag = hn::CappedTag<C_t, channels>;
+         constexpr size_t maxLanes = HWY_MAX_LANES_D(Tag);
+         return IsSufficientlyAligned<RGBA64_alignment, alignof(hn::TFromD<Tag>) * maxLanes>;
+     }(),
+@@ -276,7 +276,7 @@ static_assert(
+         using C_t = uint16_t;
+         constexpr i386_size_t channels = 4;
+         constexpr i386_size_t i386_RGBA64_alignment = alignof(i386_size_t);
+-        using Tag = hn::FixedTag<C_t, channels>;
++        using Tag = hn::CappedTag<C_t, channels>;
+         constexpr i386_size_t maxLanes = HWY_MAX_LANES_D(Tag);
+         return !IsSufficientlyAligned<i386_RGBA64_alignment, alignof(hn::TFromD<Tag>) * maxLanes>;
+     }(),
+@@ -332,7 +332,7 @@ HWY_ATTR HWY_FLATTEN void blurRowWorker(const BlurTask &task)
+     static_assert(sizeof(hwy::MakeWide<C_t>) <= sizeof(M_t),
+                   "The math type should be large enough that it won't overflow when doing arithmetic with channels.");
+     // Rebind makes a similar tag with a different type and the same number of lanes
+-    using MTag = hn::FixedTag<M_t, channels>; // math tag type
++    using MTag = hn::CappedTag<M_t, channels>; // math tag type
+     using CTag = hn::Rebind<C_t, MTag>; // channel tag type
+     using ITag = hn::Rebind<I_t, MTag>; // intermediary tag type
+     // Highway can't go directly from uint8/uint16 to float32, so we need to
+-- 
+2.55.0
+

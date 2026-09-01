@@ -66,6 +66,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-testpatch.patch"
                 }
             ]
         },
