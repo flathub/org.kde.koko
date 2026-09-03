@@ -70,6 +70,23 @@
             ]
         },
         {
+            "name": "kirigami-app-components",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/kirigami-app-components/kirigami-app-components-1.0.2.tar.xz",
+                    "sha256": "6bfd9e0a3a4b7d17505f0c3c0c395628165973b6f4cf1e4a7a1f3342873b44d0",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 391965,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kirigami-app-components/kirigami-app-components-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "koko",
             "buildsystem": "cmake-ninja",
             "sources": [
