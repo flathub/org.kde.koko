@@ -93,8 +93,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.0/src/koko-26.08.0.tar.xz",
-                    "sha256": "674c9930e4dde448638c2f2ae1b6df2563757106652ccbe67f90a80999c14917",
+                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/koko-26.08.1.tar.xz",
+                    "sha256": "3afae9b103150e2093c221779c32e0d2ce0e8295cf39e4f59bb40a11944e8c0f",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
