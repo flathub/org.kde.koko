@@ -11,6 +11,7 @@
         "--share=ipc",
         "--share=network",
         "--socket=wayland",
+        "--socket=pulseaudio",
         "--talk-name=org.freedesktop.FileManager1"
     ],
     "cleanup": [
