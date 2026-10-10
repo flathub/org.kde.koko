@@ -76,8 +76,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-app-components/kirigami-app-components-1.0.2.tar.xz",
-                    "sha256": "6bfd9e0a3a4b7d17505f0c3c0c395628165973b6f4cf1e4a7a1f3342873b44d0",
+                    "url": "https://download.kde.org/stable/kirigami-app-components/kirigami-app-components-1.1.1.tar.xz",
+                    "sha256": "f68f4d082933213d82b805217f2fa0690f51df7d00214ddb873812a60a6b830b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 391965,
@@ -93,8 +93,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.1/src/koko-26.08.1.tar.xz",
-                    "sha256": "3afae9b103150e2093c221779c32e0d2ce0e8295cf39e4f59bb40a11944e8c0f",
+                    "url": "https://download.kde.org/stable/release-service/26.08.2/src/koko-26.08.2.tar.xz",
+                    "sha256": "f7fce0d885ac53ddd3fc30d443cbff694b5432eb0745efae0556dbfe270c5830",
                     "x-checker-data": {
                         "is-main-source": true,
                         "type": "anitya",
